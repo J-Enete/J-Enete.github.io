@@ -1,0 +1,399 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "lucinda grande", arial, sans-serif;
+    font-size: 18px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header {
+    margin-bottom: 1em;
+    /*background-color: #abd240;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    display: inline-block;
+    width: 100%;
+}
+
+nav {
+    margin: 0;
+    padding: .5em 10%;
+    /*background-color: #686397;*/
+    color: #fff;
+    float: right;
+}
+
+#navlinks li {
+    display: inline;
+    margin-right: .5em;
+    padding-right: .75em;
+    /*border-right: 1px solid #333;*/
+    font-weight: bold;
+}
+
+#navlinks a {
+    color: #333;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+.intro-section {
+    margin: 5%;
+    padding-bottom: 600px;
+    width: 60%;
+}
+
+.intro-text {
+    float: left;
+}
+
+#hero-pic {
+    float: right;
+    width: 40%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 96px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.p2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.primary-button {
+    background-color: #333;
+    color: #fff;
+    height: 68px;
+    width: 319px;
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.secondary-button {
+    background-color: #fff;
+    color: black;
+    height: 68px;
+    width: 319px;
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.text-button {
+    background-color: #333;
+    color: white;
+    height: 68px;
+    width: 319px;
+    border: 0px;
+    border-radius: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.credentials {
+    margin: 0% 16% 0% 16%;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.certificates {
+    float: left;
+    display: inline;
+    max-width: 40%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.certificates a {
+    text-decoration: none;
+    color: #0075ff;
+}
+
+#hr1 {
+    border: none;
+    border-top: 1px dashed #333;
+    width: 250px;
+    float: left;
+}
+
+.logos {
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    width: 55%;
+}
+
+#STlogo {
+    margin: 5%;
+}
+
+.design-process-section {
+    text-align: center;
+    margin: 5%;
+    padding-bottom: 50px;
+}
+
+.depritems {
+margin: 0 5% 0 5%;
+}
+
+.depritems span {
+    margin: 3.5%;
+    white-space: normal;
+    display: inline-flex;
+    align-items: center;
+}
+
+.depritems span img {
+    padding-right: 10%;
+}
+
+.blurbandimg {
+    padding: 0 0 0 18%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.process-blurb {
+    float: left;
+    max-width: 35%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+.design-image {
+    float: right;
+    max-width: 50%;
+}
+
+.toolblurbs {
+    width:fit-content;
+    margin: auto;
+    padding: 0% 25%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    /*background-color: #c8ff00;
+    height: 150px;*/
+}
+
+.left-blurb {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-right: 5%;
+    border-right: 1px dashed #333;
+    height: 100%;
+    /*background-color: #00ff00;*/
+}
+
+.right-blurb {
+    float: left;
+    width: 100%;
+    text-align: left;
+    /*background-color: #0075ff;*/
+}
+
+.case-studies {
+    text-align: center;
+    margin: 0% 5%;
+    /*padding-bottom: 50px;*/
+}
+
+
+.caseblurbs {
+    width: 100%;
+    margin: auto;
+    padding: 0% 5%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    /*background-color: #c8ff00;*/
+    height: 650px;
+    position: relative;
+    top: 50px;
+}
+
+.nest-left {
+    float: left;
+    width: 55%;
+    text-align: left;
+    margin-right: 5%;
+    position: relative;
+    top: -50px;
+    /*border-right: 1px dashed #333;
+    height: 100%;
+    background-color: #00ff00;*/
+}
+
+.overview li {
+    line-height: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.nest-right {
+    float: right;
+    width: 100%;
+    /*text-align: right;
+    /*background-color: #0075ff;*/
+}
+
+#nestdesktop {
+    position: relative;
+    top: 200px;
+    z-index: 0;
+}
+
+#nestipad {
+    position: relative;
+    top: -130px;
+    z-index: 1;
+}
+
+#nestmobile {
+    position: relative;
+    top: -130px;
+    z-index: 2;
+}
+
+.hubs-right {
+    float: right;
+    width: 55%;
+    text-align: left;
+    margin-right: 10%;
+    position: relative;
+    top: -50px;
+    /*border-right: 1px dashed #333;
+    height: 100%;
+    background-color: #00ff00;*/
+}
+
+#lagdesktop {
+    position: relative;
+    top: -50px;
+    z-index: 0;
+}
+
+#nestuge {
+    padding-bottom: 5%;
+}
+
+#hubs {
+    padding-bottom: 5%;
+}
+
+#lagsmamet {
+    padding-bottom: 5%;
+}
+
+#foodie {
+    padding-bottom: 5%;
+}
+
+.hubs-left {
+    float: left;
+    width: 100%;
+    margin-right: 0%;
+    text-align: left;
+    /*background-color: #0075ff;*/
+}
+
+#hubs1 {
+    position: relative;
+    top: 0px;
+    left: 255px;
+    z-index: 2;
+}
+
+#hubs2 {
+    position: relative;
+    top: 0px;
+    left: -200px;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+
+#hubs3 {
+    position: relative;
+    top: 0px;
+    left: -50px;
+    transform: rotate(15deg);
+    z-index: 0;
+}
+
+.see-case-studies {
+    margin: 5%;
+    text-align: center;
+}
+
+.connect-with-me {
+    padding: 2% 5% 2% 5%;
+    text-align: center;
+    background-color: #333;
+}
+
+#connect-title {
+    color: #fff;
+}
+
+.twitter {
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+.back-to-top {
+    text-align: center;
+    background-color: #333;
+}
+
+footer {
+    line-height: 500%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
